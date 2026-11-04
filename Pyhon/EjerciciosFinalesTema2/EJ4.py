@@ -3,7 +3,7 @@ import random
 secreto = random.randint(1, 10)
 entrada = 0
 acertado = True
-contador = 0
+contador = 1
 
 try: 
     while acertado:
