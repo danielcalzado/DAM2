@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<ad ciclo="DAM" curso="2">
+    <alumno pos_lista="1">
+        <nombre>Marcos</nombre>
+        <apellido>Asensio</apellido>
+        <apellido>Hernández</apellido>
+    </alumno>
+    <alumno pos_lista="2">
+        <nombre>Libio</nombre>
+        <apellido>Basurto</apellido>
+        <apellido>Calero</apellido>
+    </alumno>
+    <alumno pos_lista="3">
+        <nombre>Asia</nombre>
+        <apellido>Bekiarova</apellido>
+        <apellido>Pankovska</apellido>
+    </alumno>
+    <alumno pos_lista="4">
+        <nombre>Daniel</nombre>
+        <apellido>Calzado</apellido>
+        <apellido>Muñoz</apellido>
+    </alumno>
+    <alumno pos_lista="5">
+        <nombre>Sheyla</nombre>
+        <apellido>Cortés</apellido>
+        <apellido>Checa</apellido>
+    </alumno>
+    <alumno pos_lista="6">
+        <nombre>Alberto</nombre>
+        <apellido>Cortijo</apellido>
+        <apellido>Martín</apellido>
+    </alumno>
+    <alumno pos_lista="7">
+        <nombre>Raúl</nombre>
+        <apellido>Hernández</apellido>
+        <apellido>Fernández</apellido>
+    </alumno>
+    <alumno pos_lista="8">
+        <nombre>Aylen</nombre>
+        <apellido>Hernández</apellido>
+        <apellido>Martín</apellido>
+    </alumno>
+    <alumno pos_lista="9">
+        <nombre>Javier</nombre>
+        <apellido>Martos</apellido>
+        <apellido>Kharlamov</apellido>
+    </alumno>
+    <alumno pos_lista="10">
+        <nombre>Dumi</nombre>
+        <apellido>Oana</apellido>
+    </alumno>
+    <alumno pos_lista="11">
+        <nombre>Aiman</nombre>
+        <apellido>Ouald</apellido>
+        <apellido>Omar</apellido>
+		<apellido>Alouat</apellido>
+    </alumno>
+    <alumno pos_lista="12">
+        <nombre>Pablo Eduardo</nombre>
+        <apellido>Páucar</apellido>
+        <apellido>García</apellido>
+    </alumno>
+    <alumno pos_lista="13">
+        <nombre>Daniel</nombre>
+        <apellido>Puerta</apellido>
+        <apellido>Martín</apellido>
+    </alumno>
+    <alumno pos_lista="14">
+        <nombre>Darius</nombre>
+        <apellido>Puiu</apellido>
+    </alumno>
+    <alumno pos_lista="15">
+        <nombre>Francisco Javier</nombre>
+        <apellido>Quesada</apellido>
+        <apellido>Pérez</apellido>
+    </alumno>
+    <alumno pos_lista="16">
+        <nombre>Álvaro</nombre>
+        <apellido>Robles</apellido>
+        <apellido>Barrientos</apellido>
+    </alumno>
+    <alumno pos_lista="17">
+        <nombre>Iván</nombre>
+        <apellido>Ruiz</apellido>
+        <apellido>Fernández</apellido>
+    </alumno>
+    <alumno pos_lista="18">
+        <nombre>Mario</nombre>
+        <apellido>Sarmiento</apellido>
+        <apellido>Casanova</apellido>
+    </alumno>
+    <alumno pos_lista="19">
+        <nombre>Daniel</nombre>
+        <apellido>Sevilla</apellido>
+        <apellido>Navarrete</apellido>
+    </alumno>
+    <alumno pos_lista="20">
+        <nombre>Álvaro</nombre>
+        <apellido>Sevilla</apellido>
+        <apellido>Villoslada</apellido>
+    </alumno>
+    <alumno pos_lista="21">
+        <nombre>Camilo</nombre>
+        <apellido>Sobczak</apellido>
+    </alumno>
+    <alumno pos_lista="22">
+        <nombre>Pablo Javier</nombre>
+        <apellido>Vives</apellido>
+        <apellido>Rodríguez</apellido>
+    </alumno>	
+</ad>
