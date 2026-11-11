@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Molde visual de UNA sola fila del ListView (se repite por cada jugador) -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +9,7 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
+    <!-- Columna 1: Nombre (ocupa 3/7 partes del espacio sobrante) -->
     <TextView
         android:id="@+id/tvNombreItem"
         android:layout_width="0dp"
@@ -16,6 +18,7 @@
         android:textSize="15sp"
         android:textStyle="bold" />
 
+    <!-- Columna 2: País (ocupa 2/7 partes) -->
     <TextView
         android:id="@+id/tvNacionalidadItem"
         android:layout_width="0dp"
@@ -23,6 +26,7 @@
         android:layout_weight="2"
         android:textSize="14sp" />
 
+    <!-- Columna 3: Puntuación (ocupa 2/7 partes) -->
     <TextView
         android:id="@+id/tvPuntuacionItem"
         android:layout_width="0dp"
@@ -30,6 +34,7 @@
         android:layout_weight="2"
         android:textSize="14sp" />
 
+    <!-- Columna 4: Bandera (tamaño fijo para que todas salgan uniformes) -->
     <ImageView
         android:id="@+id/imgBanderaItem"
         android:layout_width="48dp"

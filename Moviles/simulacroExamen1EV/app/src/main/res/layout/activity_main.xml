@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Contenedor raíz vertical: apila los elementos uno debajo de otro -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +9,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- 1. Barra superior (Toolbar): sustituta moderna de la ActionBar.
+         Aquí se inyectará el título de la app y el botón de ordenar (main_menu.xml) -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -17,6 +20,8 @@
         android:elevation="4dp"
         android:layout_marginTop="35dp"/>
 
+    <!-- 2. Lista de jugadores: con height="0dp" y weight="1" le decimos a Android
+         que ocupeTODO el espacio vertical que sobre entre la Toolbar y el botón inferior -->
     <ListView
         android:id="@+id/listViewJugadores"
         android:layout_width="match_parent"
@@ -24,6 +29,7 @@
         android:layout_weight="1" />
 
     <!-- imagen default -->
+    <!-- 3. Botón para añadir nuevos registros: alineado a la derecha con layout_gravity="end" -->
     <ImageButton
         android:id="@+id/fabAgregar"
         android:layout_width="56dp"

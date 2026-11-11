@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Menú contextual flotante que aparece al mantener pulsado un ítem del ListView -->
     <item
         android:id="@+id/opcion_eliminar"
         android:title="Eliminar" />

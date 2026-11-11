@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Este archivo no es una pantalla completa, sino el contenido interior que "inflamos"
+dentro del AlertDialog tanto para crear como para editar un jugado -->
+
+<!-- Diseño interior del cuadro de diálogo para Agregar o Actualizar jugador -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,6 +13,7 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <!-- Campo de texto para el nombre -->
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
@@ -16,12 +21,14 @@
         android:hint="Inserte nombre"
         android:inputType="textPersonName" />
 
+    <!-- Lista desplegable donde cargaremos el array de países desde Java -->
     <Spinner
         android:id="@+id/spinnerNacionalidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp" />
 
+    <!-- Campo numérico: inputType="number" obliga al teclado a mostrar solo números -->
     <EditText
         android:id="@+id/etValoracion"
         android:layout_width="match_parent"
@@ -30,6 +37,7 @@
         android:hint="Inserte valoración (0-10)"
         android:inputType="number" />
 
+    <!-- Imagen dinámica: empieza con el logo genérico y cambia al elegir país en el Spinner -->
     <ImageView
         android:id="@+id/imgBanderaPreview"
         android:layout_width="80dp"

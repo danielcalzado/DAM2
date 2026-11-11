@@ -1,0 +1,30 @@
++-------------------------------------------------------------------+
+|                        MainActivity.java                          |
+|                     (Director de Orquesta)                        |
+|                                                                   |
+|  1. Gestiona los clics (Botón +, Toolbar, Pulsación larga)        |
+|  2. Controla los datos en memoria ---> [ ArrayList<Jugador> ]     |
+|  3. Avisa de cambios ----------------> adapter.notifyDataSet...() |
++-------------------------------------------------------------------+
+        |                        |                        |
+        v                        v                        v
+[ Menús (res/menu) ]   [ Diálogos (AlertDialog) ]  [ JugadorAdapter.java ]
+  - main_menu.xml        - dialog_jugador.xml        (El Puente / Traductor)
+    (Ordenar)              (Crear / Editar)                 |
+  - context_menu.xml                                        | Lee cada Jugador
+    (Eliminar / Editar)                                     | y rellena el molde
+                                                            v
++-------------------------------------------------------------------+
+|                    activity_main.xml (Pantalla)                   |
+|  +-------------------------------------------------------------+  |
+|  | Toolbar (Título + Botón Ordenar)                            |  |
+|  +-------------------------------------------------------------+  |
+|  | ListView                                                    |  |
+|  |  +-------------------------------------------------------+  |  |
+|  |  | item_jugador.xml  [Nombre | País | Puntos | Bandera]  |  |  |
+|  |  +-------------------------------------------------------+  |  |
+|  |  | item_jugador.xml  [Nombre | País | Puntos | Bandera]  |  |  |
+|  |  +-------------------------------------------------------+  |  |
+|  +-------------------------------------------------------------+  |
+|                                                      [ Botón + ]  |
++-------------------------------------------------------------------+
