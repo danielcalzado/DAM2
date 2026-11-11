@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToggleButtonSwitchSwitchCompact</string>
+    <string name="seleccionado">Control seleccionado</string>
+    <string name="no_seleccionado">Control no seleccionado</string>
+</resources>

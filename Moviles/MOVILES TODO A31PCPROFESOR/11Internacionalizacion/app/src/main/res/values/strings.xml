@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">11-Internacionalizacion</string>
+    <string name="titulo">Formulario</string>
+    <string name="nombre">Indique Nombre: </string>
+    <string name="apellido">Indique Apellidos: </string>
+    <string name="telefono">Indique nº de Teléfono: </string>
+
+</resources>

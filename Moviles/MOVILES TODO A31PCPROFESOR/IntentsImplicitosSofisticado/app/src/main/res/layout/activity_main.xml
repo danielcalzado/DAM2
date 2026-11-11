@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar web del instituto"
+        android:id="@+id/btnWebInstituto"
+        android:onClick="verInstituto" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamar por telefono a otro emulador"
+        android:id="@+id/btnLlamarTelefono"
+        android:onClick="llamarTelefono" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar teléfono del instituto"
+        android:id="@+id/btnMarcarTelefono"
+        android:onClick="llamarInstituto" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps del instituto"
+        android:id="@+id/btnMaps"
+        android:onClick="mapaInstituto" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacer foto"
+        android:id="@+id/btnFoto"
+        android:onClick="hacerFoto" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar email al instituto"
+        android:id="@+id/btnMail"
+        android:onClick="enviarMail" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar contactos"
+        android:id="@+id/btnContactos"
+        android:onClick="verContactos" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMapsBuscar"
+        android:text="Buscar Plaza Cervantes en Google Maps"
+        android:onClick="buscarPlazaCervantes" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMapsBuscarPlusCodes"
+        android:text="Buscar Edificio Arcipreste con Plus Codes"
+        android:onClick="buscarEdificioArcipreste" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTrazarRuta"
+        android:text="Trazar ruta a la plaza Cervantes"
+        android:onClick="trazarRutaPlazaCervantes" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStreetView"
+        android:text="StreetView Plaza Cervantes"
+        android:onClick="streetViewPlazaCervantes" />
+
+
+
+</LinearLayout>

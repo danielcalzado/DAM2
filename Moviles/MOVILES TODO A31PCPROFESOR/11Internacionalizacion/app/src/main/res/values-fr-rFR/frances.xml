@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">11-Internationalisation</string>
+    <string name="titulo">Formulaire: </string>
+    <string name="nombre">Indiquez le nom: </string>
+    <string name="apellido">Indiquez vos noms de Famille: </string>
+    <string name="telefono">Indiquez le numéro de Téléphone: </string>
+</resources>
