@@ -23,10 +23,6 @@ namespace Trivial
 
         // Eventos
 
-
-
-
-
         // Metodos propios
         private void AnadirPais(string pais, string capital)
         {
