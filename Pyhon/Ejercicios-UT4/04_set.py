@@ -242,7 +242,8 @@ print(s1)  # {1, 2, 5, 6}
 #Las asignaturas que tienen en común (intersección).
 alumno1 = {"Matemáticas", "Lengua", "Historia"}
 alumno2 = {"Inglés", "Lengua", "Ciencias"}
-
+union = alumno1 | alumno2
+interseccion  = alumno1 & alumno2
 
 
 
@@ -259,7 +260,8 @@ palomitas = {"Luis", "Sofía"}
 #Determina si todos los empleados del turno de tarde también trabajan en el turno general.
 turno_general = {"Juan", "Lucía", "Pedro", "María", "Andrés"}
 turno_tarde = {"Pedro", "Lucía"}
-
+if turno_tarde.issulset(turno_general):
+    print("están")
 
 
 

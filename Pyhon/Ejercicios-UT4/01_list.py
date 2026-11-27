@@ -89,7 +89,7 @@ print(secreto)
 # Dada la siguiente lista:
 numeros = [10, 20, 30, 40, 50]
 # Intercambia la primera y la última posición utilizando solo asignación por índice.
-numeros[0], numeros[-1] = numeros[-1], numero[0]
+#numeros[0], numeros[-1] = numeros[-1], numero[0]
 print(numeros)
 
 # Ejercicio 3: El sándwich de listas
@@ -117,3 +117,6 @@ print(lista[centro])
 # Ejercicio 6: Reversa parcial
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
 # Ejemplo: lista = [1, 2, 3, 4, 5, 6] -> Resultado: [3, 2, 1, 4, 5, 6]
+lista = [1, 2, 3, 4, 5, 6]
+listaConvertida = lista[2::-1]+lista[3:]
+print(listaConvertida)
